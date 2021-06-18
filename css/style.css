@@ -8,36 +8,8 @@
   height: 25px;
   left: 1em;
 }
-
-ol{
-    list-style: none;
-}
-ol > li{
-    padding-left: 1em;
-    position: relative;
-    margin: 0,5em;
-}
-ol > li:before{
-    content: '';
-    position: absolute; top: 0; left: 0;
-    color: white;}
-    ul{
-        list-style: none;
-    }
-    ul > li{
-        padding-left: 1em;
-        position: relative;
-        margin: 0,5em;
-    }
-    ul > li:before{
-        content: '';
-        position: absolute; top: 0; left: 0;
-        color: #23296C;}
 .three{
-    height: 100%;
-    background-color: #23296C;
-  background: radial-gradient(44.79% 64.07% at 89.69% 91.94%, #0B54F1 0%, #1F3183 51.56%, #23296C 83.33%), #23296C;
-    height: 70%;
+  height: 900px;
 }
 .container{
   display: flex;
@@ -59,6 +31,7 @@ ol > li:before{
 }
 
 .page{
+  height: 700px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -67,7 +40,6 @@ ol > li:before{
   align-items: center;
   font-size: 1em;
   font-weight: normal;
-  color: white;
   padding: 1em;
 }
 .header{
@@ -86,18 +58,7 @@ ol > li:before{
 
     }
 
-.withfoto{  width: 100%;
-
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: nowrap;
-  flex-direction: column;
-  align-items: center;
-  font-size: 1em;
-  font-weight: normal;
-  color: #23296C;
-  padding: 1em;}
-.bank{
-  width: 8em;
-  margin-right: 1em;
+ol{
+  color: black ;
 }
+  li{padding:5px 15px;}
